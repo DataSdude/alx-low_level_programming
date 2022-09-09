@@ -1,6 +1,8 @@
 #include <stdio.h>
 
-/* Program that prints to stdout with puts function*/
+/**
+ * Program that prints to stdout with puts function
+ **/
 
 
 int main(void)
