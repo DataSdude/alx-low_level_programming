@@ -8,11 +8,11 @@
  *
  * * main - Entry point
  *
- * *desciption - program that displays last digit of a random var
+ * * desciption - program that displays last digit of a random var
  *
  * * Return: Always 0 (Success)
  *
- * */
+ */
 
 int main(void)
 
