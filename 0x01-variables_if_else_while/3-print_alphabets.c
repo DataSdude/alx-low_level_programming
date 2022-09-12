@@ -6,8 +6,8 @@
 /**
  *
  * * main - Entry point
- * * * description: program tp print the alphabet in lower and upper case
- * * * Return: Always 0 (Success)
+ * * description: program tp print the alphabet in lower and upper case
+ * * Return: Always 0 (Success)
  *
  */
 
@@ -18,7 +18,7 @@ int main(void)
 {
 
 	int i, j = 0;
-	
+
 	while (i < 26)
 	{
 		putchar(i + 'a');
