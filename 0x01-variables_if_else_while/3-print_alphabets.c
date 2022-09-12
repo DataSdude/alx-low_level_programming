@@ -4,11 +4,9 @@
 
 
 /**
- *
  * * main - Entry point
  * * description: program tp print the alphabet in lower and upper case
  * * Return: Always 0 (Success)
- *
  */
 
 
