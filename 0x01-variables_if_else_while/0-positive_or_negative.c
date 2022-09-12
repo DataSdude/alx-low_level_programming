@@ -6,10 +6,14 @@
 
 
 /**
- * main : display a simple text if the number n is positive or negative
  *
- * return 0: returns zero for main function
- */
+ * * main - Entry point
+ *
+ * *
+ *
+ * * Return: Always 0 (Success)
+ *
+ * */
 
 int main(void)
 {
