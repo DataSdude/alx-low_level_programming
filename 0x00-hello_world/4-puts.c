@@ -2,21 +2,20 @@
 
 /**
  *
- *  * main - Entry point
+ *     main - Entry point
  *
- *   *
+ *   
  *
- *    * Description: C program that prints with puts function
+ *     Description: C program that prints with puts function
  *
- *     *
+ *    
  *
- *      * Return: Always success
+ *     Return: Always success
  *
  **/
 
 
-int main(void)
-
+int main()
 {
 
 	puts("\"Programming is like building a multilingual puzzle");
