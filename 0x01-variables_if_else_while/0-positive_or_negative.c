@@ -8,8 +8,6 @@
 /**
  * main : display a simple text if the number n is positive or negative
  *
- * description: this program  checks if a random number is positive or negative
- * 
  * return 0: returns zero for main function
  */
 
