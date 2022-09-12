@@ -7,7 +7,7 @@
 
 /**
  * * main - Entry point
- * * description: c program to check if a random variable is null, positive or negative
+ * * description: program to check if a random variable null, posi or nega
  * * Return: Always 0 (Success)
  */
 
