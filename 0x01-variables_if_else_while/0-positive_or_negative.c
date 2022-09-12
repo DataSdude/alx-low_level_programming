@@ -6,13 +6,9 @@
 
 
 /**
- *
  * * main - Entry point
- *
  * * description: this c program coded with c language is used to check if a random variable is null, positive or negative
- *
  * * Return: Always 0 (Success)
- *
  */
 
 int main(void)
