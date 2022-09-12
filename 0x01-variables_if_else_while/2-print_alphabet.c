@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  * description: Program that prints the alphabet in lowercase
- * return (0)
+ * return (0): Success
  */
 
 int main(void)
