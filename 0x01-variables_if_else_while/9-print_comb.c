@@ -5,7 +5,7 @@
 
 /**
  * * main - Entry point
- * * description: program to print possible combinations of single digit numbers
+ * * description: program to print possible combo of single digit numbers
  * * Return: Always 0 (Success)
  */
 
@@ -17,11 +17,9 @@ int main(void)
 	for (i = 0; i < 10; i++)
 	{
 		putchar(i + 48);
-		
-		if( i != 9)
+		if (i != 9)
 		{
 			putchar(44);
-
 			putchar(32);
 		}
 	}
