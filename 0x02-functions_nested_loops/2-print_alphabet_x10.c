@@ -2,8 +2,7 @@
 
 
 /**
- *  *desciption of print_alphabet - utilizes on the _putchar function
- *  *to print the alphabet a - z  ten times
+ * *print_alphabet_x10 - function that will print the alphabet 10 times
  */
 
 
