@@ -2,7 +2,7 @@
 
 
 /**
- *  *print_alphabet - utilizes on the _putchar function
+ *  *desciption of print_alphabet - utilizes on the _putchar function
  *  *to print the alphabet a - z  ten times
  */
 
