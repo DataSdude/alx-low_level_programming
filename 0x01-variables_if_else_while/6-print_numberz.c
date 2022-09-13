@@ -3,13 +3,9 @@
 #include <stdio.h>
 
 /**
- *
  * * main - Entry point
- *
  * * description: program to print all single digit numbers of base 10
- *
  * * Return: Always 0 (Success)
- *
  */
 
 int main(void)
