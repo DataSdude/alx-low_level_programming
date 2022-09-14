@@ -9,7 +9,7 @@
  *
  *     *
  *
- *      * Return: return (n) if is positive
+ *      * Return: (n) if is positive
  *		(-n) if is negative
  */
 
