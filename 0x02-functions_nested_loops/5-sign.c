@@ -1,11 +1,10 @@
 #include "main.h"
 
 /*
- *  *print_sign - function to check the
+ * *print_sign - function to check the
+ * sign of a number
  *
- *  *   *   sign of a number
- *
- *  *    * @n: checks input of function
+ * * @n: checks input of function
  *
  * return: 1 if n is positive
  *         0 if n is nil
