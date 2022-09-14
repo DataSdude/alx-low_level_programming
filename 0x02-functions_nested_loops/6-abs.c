@@ -1,18 +1,16 @@
 #include "main.h"
 
 /**
- *  * _abs - function that computes the absolute
+ *  * _abs - function that compute the absolute
  *
  *   *       value of an integer
  *
- *    *
+ *    * @n: takes in integer type input for function
  *
- *     * @n: takes in integer type input for function
+ *     *
  *
- *      *
- *
- *       * Return: n if n is positive
- *       		-n if n is negative 
+ *      * Return: n if n is positive
+ *		-n if n is negative
  */
 
 int _abs(int n)
