@@ -9,8 +9,8 @@
  *
  *     *
  *
- *      * Return: (n) if is positive
- *		(-n) if is negative
+ *      * Return: + if is positive
+ *		- if is negative
  */
 
 int _abs(int n)
