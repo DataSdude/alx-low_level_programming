@@ -2,22 +2,14 @@
 
 
 /**
+ *_isalpha - function to check if
  *
- * *  *_isalpha - function to check if
+ *	 character is alphabet
  *
- * *   *   character is alphabet
+  * Return: returns 1 if `c` is alphabet
+ *         otherwise always 0 (Success)
  *
- * *    * @c: checks input of function
- *
- * *
- *
- * *      * Return: returns 1 if `c` is alphabet
- *
- * *
- *
- * *       *         otherwise always 0 (Success)
- *
- * */
+ */
 
 
 
