@@ -3,13 +3,9 @@
 
 
 /**
- *
  *  * _islower - function that checks if a character is lowercase
- *
- *   *
- *
- *   */
-
+ *  * return : 1 if lowercase, 0 if not
+ */
 
 
 int _islower(int c)
