@@ -1,8 +1,7 @@
 #include "main.h"
 
 /*
- * print_sign: function that checks
- * *the sign of a number
+ * print_sign: function that checks the sign of a number
  *
  * @n: checks input
  *
@@ -12,7 +11,7 @@
 int print_sign(int n)
 {
 	if (n >= 1)
-	{	
+	{
 		_putchar('+');
 		return (1);
 	}
