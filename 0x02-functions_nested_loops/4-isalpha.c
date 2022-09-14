@@ -5,8 +5,8 @@
  *_isalpha - function to check if
  *
  *	 character is alphabet
- *
-  * Return: returns 1 if `c` is alphabet
+ *@c: checks input
+ * Return: returns 1 if `c` is alphabet
  *         otherwise always 0 (Success)
  *
  */
