@@ -11,7 +11,8 @@
  *
  *      *
  *
- *       * Return: Always 0 (Success)
+ *       * Return: n if n is positive
+ *       		-n if n is negative 
  */
 
 int _abs(int n)
