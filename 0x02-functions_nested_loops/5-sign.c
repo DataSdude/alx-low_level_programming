@@ -1,11 +1,15 @@
 #include "main.h"
 
 /*
- * print_sign: function that checks the sign of a number
+ *  *print_sign - function to check the
  *
- * @n: checks input
+ *  *   *   sign of a number
  *
- * return: 1 Success(always)
+ *  *    * @n: checks input of function
+ *
+ * return: 1 if n is positive
+ *         0 if n is nil
+ *         -1 if n is negative
  */
 
 int print_sign(int n)
