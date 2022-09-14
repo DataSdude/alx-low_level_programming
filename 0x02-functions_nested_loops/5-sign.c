@@ -10,7 +10,8 @@
  *     *
  *
  *      * @n: takes integer type input for function.
- * return: 1 if n is positive
+ *  
+ *  * Return: returns 1 if n is positive
  *         0 if n is nil
  *         -1 if n is negative
  */
