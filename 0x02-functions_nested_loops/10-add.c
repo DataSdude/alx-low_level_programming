@@ -1,6 +1,6 @@
 #include"main.h"
 
-/*
+/**
  * add Function - add two integers
  *
  * @a: first input
