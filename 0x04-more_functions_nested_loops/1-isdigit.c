@@ -3,9 +3,9 @@
 #include <stdio.h>
 
 /*
- * _isdigit - func to check if a char is digit
- * @c - input to check agaisnt
- * Return - 1 if true 0 if not
+ * *_isdigit - func to check if a char is digit
+ * *@c - input to check agaisnt
+ * *Return - 1 if true 0 if not
  */
 
 int _isdigit(int c)
