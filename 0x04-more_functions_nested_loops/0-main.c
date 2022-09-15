@@ -22,6 +22,5 @@ int main(void)
 
 	printf("%c: %d\n", c, _isupper(c));
 
-        return (0);
-
+	return (0);
 }
