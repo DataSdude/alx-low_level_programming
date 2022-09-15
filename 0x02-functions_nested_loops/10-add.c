@@ -1,7 +1,7 @@
 #include"main.h"
 
 /**
- * * add Function - add two integers
+ * * add Function - Program that add two integers
  *
  * * @a: first input
  *
