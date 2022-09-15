@@ -2,9 +2,7 @@
 #include <stdio.h>
 
 /**
- * more_numbers - func to print nums from 0 to 14 10 times
- * input - none
- * Return - none
+ * more_numbers - function to print nums from 0 to 14 10 times
  */
 
 void more_numbers(void)
