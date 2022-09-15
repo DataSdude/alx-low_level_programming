@@ -1,13 +1,10 @@
 #include"main.h"
 
 /**
- * * add Function - Program that add two integers
- *
- * * @a: first input
- *
- * * @b: second input
- *
- * *Return: sum of a & b
+ * add Function - Program that prints addition of two integers
+ * @a: first input
+ * @b: second input
+ * Return: sum of a & b
  */
 
 int add(int a, int b)
