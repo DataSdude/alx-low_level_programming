@@ -6,6 +6,8 @@
 
 #include <stdlib.h>
 
+char _putchar(int a);
+
 int _isupper(int c);
 
 int _isdigit(int c);
