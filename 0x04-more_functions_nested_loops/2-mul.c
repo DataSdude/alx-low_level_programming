@@ -4,10 +4,8 @@
 
 /*
  * mul - program that do multiplication of two numbers
- * 
  * @a - input
  * @b - input
- *
  * return - multiplication of two numbers a and b
  */
 
