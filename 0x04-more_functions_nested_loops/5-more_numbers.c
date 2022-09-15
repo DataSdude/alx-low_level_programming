@@ -3,7 +3,8 @@
 
 /**
  * more_numbers - function to print nums from 0 to 14 10 times
- */
+ * Return - none
+*/
 
 void more_numbers(void)
 {
