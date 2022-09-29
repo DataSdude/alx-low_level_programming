@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * helper - Finds the square root of two numbers
+ * test_func - Finds the square root of two numbers
  * @a: The number
  * @b: The number to test for the square root of @a
  * Return: square root
