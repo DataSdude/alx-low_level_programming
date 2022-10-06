@@ -7,12 +7,9 @@
  * Return: NULL on faliure
 */
 
-
 char *str_concat(char *s1, char *s2)
 {
-	int a = 0, b = 0;
-
-	int i, j;
+	int a = 0, b = 0, i, j;
 
 	char *s;
 
@@ -25,11 +22,9 @@ char *str_concat(char *s1, char *s2)
 	/*find length of str1 & str2*/
 
 	while (s1[a] != '\0')
-
 		a++;
 
 	while (s2[b] != '\0')
-
 		b++;
 
 	/*+1 for our end of string character*/
@@ -42,7 +37,6 @@ char *str_concat(char *s1, char *s2)
 	/*add the first string to array s*/
 
 	for (i = 0; s1[i] != '\0'; i++)
-
 		s[i] = s1[i];
 
 	/*add the second string to array s*/
@@ -50,7 +44,6 @@ char *str_concat(char *s1, char *s2)
 	for (j = 0; s2[j] != '\0'; j++)
 	{
 		s[i] = s2[j];
-
 		i++;
 	}
 
