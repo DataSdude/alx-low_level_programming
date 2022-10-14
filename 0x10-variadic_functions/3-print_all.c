@@ -13,7 +13,6 @@ void print_char(va_list arg)
 	char c = va_arg(arg, int);
 
 	printf("%c", c);
-
 }
 
 
@@ -26,13 +25,11 @@ void print_char(va_list arg)
 */
 
 
-
 void print_int(va_list arg)
 {
 	int n = va_arg(arg, int);
 
 	printf("%d", n);
-
 }
 
 
@@ -63,21 +60,16 @@ void print_float(va_list arg)
 
 
 void print_string(va_list arg)
-
 {
 
 	char *str = va_arg(arg, char *);
 
-
-
 	if (str == NULL)
-
 	{
 
 		printf("(nil)");
 
 		return;
-
 	}
 
 	printf("%s", str);
@@ -92,7 +84,6 @@ void print_string(va_list arg)
  *              int, float or char * is ignored
  * Return: nothing
 */
-
 
 
 void print_all(const char * const format, ...)
@@ -115,29 +106,22 @@ void print_all(const char * const format, ...)
 
 	};
 
-
 	va_start(ap, format);
 
 	while (format && format[i])
-
 	{
-
 		j = 0;
 
 		while (j < 4 && (format[i] != *(funcs[j].symbol)))
-
 			j++;
 
 		if (j < 4)
-
 		{
-
 			printf("%s", separator);
 
 			funcs[j].print_func(ap);
 
 			separator = ", ";
-
 		}
 
 		i++;
