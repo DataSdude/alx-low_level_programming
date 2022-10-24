@@ -12,14 +12,11 @@
 */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
-
 {
 
 	unsigned int i;
 
 	listint_t *temp, *next;
-
-
 
 	/* if linked list is empty */
 
@@ -27,14 +24,11 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 		return (-1);
 
-
-
 	temp = *head;
 
 	/* if head needs to be removed */
 
 	if (index == 0)
-
 	{
 
 		*head = temp->next; /* change head */
@@ -42,15 +36,12 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 		free(temp); /* free old head */
 
 		return (1);
-
 	}
 
 	for (i = 0; temp != NULL && i < index - 1; i++)
-
 	{
 
 		temp = temp->next;
-
 	}
 
 	/* if index is greater than the number of nodes */
@@ -61,12 +52,9 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 
 	next = temp->next->next;
 
-
-
 	free(temp->next);
 
 	temp->next = next;
 
 	return (1);
-
 }
