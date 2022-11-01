@@ -2,7 +2,6 @@
 
 #define MAXSIZE 1024
 
-
 /**
  * __exit - prints error messages and exits with exit number
  * @error: either the exit number or file descriptor
@@ -15,37 +14,25 @@ int __exit(int error, char *s, int fd)
 {
 	switch (error)
 	{
-
 		case 97:
-
 			dprintf(STDERR_FILENO, "Usage: cp file_from file_to\n");
-
 			exit(error);
 
 		case 98:
-
 			dprintf(STDERR_FILENO, "Error: Can't read from file %s\n", s);
-
 			exit(error);
 
 		case 99:
-
 			dprintf(STDERR_FILENO, "Error: Can't write to %s\n", s);
-
 			exit(error);
 
 		case 100:
-
 			dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", fd);
-
 			exit(error);
 
 		default:
-
 			return (0);
-
 	}
-
 }
 
 /**
@@ -78,7 +65,6 @@ int main(int argc, char *argv[])
 	if (file_out == -1)
 		__exit(99, argv[2], 0);
 
-
 	while ((read_stat = read(file_in, buffer, MAXSIZE)) != 0)
 	{
 		if (read_stat == -1)
@@ -89,7 +75,6 @@ int main(int argc, char *argv[])
 		if (write_stat == -1)
 			__exit(99, argv[2], 0);
 	}
-
 
 	close_in = close(file_in);
 
@@ -102,5 +87,4 @@ int main(int argc, char *argv[])
 		__exit(100, NULL, file_out);
 
 	return (0);
-
 }
