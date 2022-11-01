@@ -65,7 +65,6 @@ int main(int argc, char *argv[])
 
 	char buffer[MAXSIZE];
 
-
 	if (argc != 3)
 		__exit(97, NULL, 0);
 
@@ -92,12 +91,12 @@ int main(int argc, char *argv[])
 	}
 
 
-	close_in = close(file_in); /*close file_in*/
+	close_in = close(file_in);
 
 	if (close_in == -1)
 		__exit(100, NULL, file_in);
 
-	close_out = close(file_out); /*close file_out*/
+	close_out = close(file_out);
 
 	if (close_out == -1)
 		__exit(100, NULL, file_out);
